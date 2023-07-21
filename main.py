@@ -74,5 +74,6 @@ async def update_todo(title:str, desc:str):
     raise HTTPException(404, f"No TODO found with title : {title}") # 400 : status code for bad request
       
     
+    
 
 
